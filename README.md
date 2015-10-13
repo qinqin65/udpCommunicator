@@ -23,3 +23,10 @@ for(var i=0; i < 10; i++) {
 }
 
 udp.send_data('test without callback');
+
+json通信格式
+{
+    _id: 消息id,
+    data: 数据,
+    type: 数据类型,
+}
